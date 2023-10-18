@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import Button from "./Button";
+// import Button from "./Button";
 import { HiChevronLeft, HiChevronRight } from "react-icons/hi2";
 import { useSearchParams } from "react-router-dom";
 import { PAGE_SIZE } from "../utils/constants";
@@ -11,6 +11,7 @@ const StyledPagination = styled.div`
   justify-content: space-between;
 `;
 
+/*
 const P = styled.p`
   font-size: 1.4rem;
   margin-left: 0.8rem;
@@ -19,6 +20,7 @@ const P = styled.p`
     font-weight: 600;
   }
 `;
+*/
 
 const Buttons = styled.div`
   display: flex;
